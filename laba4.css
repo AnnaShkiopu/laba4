@@ -1,0 +1,38 @@
+*{
+	margin: 3px;
+	padding:3px; 
+}
+.square{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.square1{
+	width: 90px; 
+    height: 90px;
+    background: #00FF40;
+}
+.square2{
+	width: 90px; 
+    height: 90px;
+    background: #FF8000;
+}
+.square3{
+	width: 90px; 
+    height: 90px;
+    background: #DF01A5;  
+}
+@media (orientation:landscape) {
+	.square{
+		flex-direction: row;
+		margin-top: 10px;
+	}
+	
+}
+@media (orientation:portrait) {
+	.square{
+		flex-direction: column;
+		margin-top: 10px;
+	}
+	
+}
